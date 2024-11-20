@@ -1,20 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   display: flex;
   flex-direction: column;
-  background: rgb(108 172 228 / 0.2);
+  background: white;
   width: 100%;
   height: 100%;
 }
 
-.navbar{
+.navbar {
+  display: flex;
   z-index: 1;
   position: fixed;
   background: white;
@@ -24,135 +25,147 @@ body{
   border-bottom-right-radius: 40px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   max-width: inherit;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.rectangle{
-  display: none;
-}
-
-.home{
-  position: fixed;
-  width: 10%;
-  height: 20%;
+.home {
+  width: 10vw;
+  height: 20vh;
+  cursor: pointer;
   border: 0;
   border-bottom-left-radius: 40px;
   background: white;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 20px;
 }
 
-.home:hover{
+.home:hover {
   box-shadow: 0 3px 10px rgba(50, 50, 50, 0.75);
-  background: #6cace4;
+  background: #0052ffc9;
   color: white;
 }
 
-.about{
-  position: fixed;
-  margin-left: 10%;
-  width: 10%;
-  height: 20%;
+.about {
+  width: 10vw;
+  height: 20vh;
+  cursor: pointer;
   border: 0;
   background: white;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 20px;
 }
 
-.about:hover{
+.about:hover {
   box-shadow: 0 3px 10px rgba(50, 50, 50, 0.75);
-  background: #6cace4;
+  background: #0052ffc9;
   color: white;
 }
 
-.campaigns{
-  position: fixed;
-  margin-left: 20%;
-  width: 10%;
-  height: 20%;
+.campaigns {
+  width: 10vw;
+  height: 20vh;
+  cursor: pointer;
   border: 0;
   background: white;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 20px;
 }
 
-.campaigns:hover{
+.campaigns:hover {
   box-shadow: 0 3px 10px rgba(50, 50, 50, 0.75);
-  background: #6cace4;
+  background: #0052ffc9;
   color: white;
 }
 
-.title{
-  position: fixed;
-  width: 35vw;
-  height: 35vh;
-  margin-top: -7vh;
-  margin-left: 32%;
+.title {
+  width: auto;
+  height: 20vh;
+  margin: 0 100px;
 }
 
-.volunteer{
-  position: fixed;
-  margin-left: 70%;
-  width: 10%;
-  height: 20%;
+.volunteer {
+  width: 10vw;
+  height: 20vh;
+  cursor: pointer;
   border: 0;
   background: white;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 20px;
   font-size: 20px;
 }
 
-.volunteer:hover{
+.volunteer:hover {
   box-shadow: 0 3px 10px rgba(50, 50, 50, 0.75);
-  background: #6cace4;
+  background: #0052ffc9;
   color: white;
 }
 
-.contact{
-  position: fixed;
-  margin-left: 80%;
-  width: 10%;
-  height: 20%;
+.contact {
+  width: 10vw;
+  height: 20vh;
+  cursor: pointer;
   border: 0;
   background: white;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 20px;
 }
 
-.contact:hover{
+.contact:hover {
   box-shadow: 0 3px 10px rgba(50, 50, 50, 0.75);
-  background: #6cace4;
+  background: #0052ffc9;
   color: white;
 }
 
-.login{
-  position: fixed;
-  margin-left: 90%;
-  width: 10%;
-  height: 20%;
+.login {
+  width: 10vw;
+  height: 20vh;
+  cursor: pointer;
   border: 0;
   border-bottom-right-radius: 40px;
   background: white;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 20px;
 }
 
-.login:hover{
+.login:hover {
   box-shadow: 0 3px 10px rgba(50, 50, 50, 0.75);
-  background: #6cace4;
+  background: #0052ffc9;
   color: white;
 }
 
 .image{
-  position: absolute;
-  width: 98%;
-  height: 80%;
-  left: 1%;
-  background: rgb(108 172 228 / 0.5);
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
+  padding-top: 85px;
+  height: 100vh;
+  background: #616161;
+}
+.smile {
+  width: 100%;
+  height: auto;
+  opacity: 45%;
 }
 
-.tagline{
+.help1{
+  width: 60%;
+  height: 100%;
+  float: left;
+  display: flex;
+  justify-content: flex-end;
+}
+.help2{
+  width: 40%;
+  height: 100%;
+  color: white;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.tagline {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -160,19 +173,11 @@ body{
   margin-top: 45vh;
   margin-left: 5%;
   font-size: 3.5vw;
-  font-family: 'Brush Script MT', cursive;
+  font-family: "Brush Script MT", cursive;
   filter: opacity(75%);
 }
 
-.smile{
-  width: 65vw;
-  height: 60vh;
-  margin-top: 20vh;
-  margin-left: 30%;
-  filter: opacity(20%);
-}
-
-.scroll{
+.scroll {
   position: absolute;
   height: 10%;
   width: 2.5%;
@@ -185,8 +190,9 @@ body{
   cursor: pointer;
 }
 
-.scroll::before,.scroll::after{
-  content: '';
+.scroll::before,
+.scroll::after {
+  content: "";
   position: absolute;
   top: 20%;
   left: 50%;
@@ -194,32 +200,32 @@ body{
   border-right: 2px solid black;
   height: 10px;
   width: 10px;
-  transform: translate(-50%,-100%) rotate(45deg);
+  transform: translate(-50%, -100%) rotate(45deg);
   animation: scroll 1s ease-in-out infinite;
 }
 
-.scroll::after{
+.scroll::after {
   top: 30%;
   animation-delay: 0.3s;
 }
 
-@keyframes scroll{
-  0%{
+@keyframes scroll {
+  0% {
     opacity: 0;
   }
-  30%{
+  30% {
     opacity: 1;
   }
-  60%{
+  60% {
     opacity: 1;
   }
-  100%{
+  100% {
     opacity: 0;
     top: 90%;
   }
 }
 
-.dot{
+.dot {
   position: absolute;
   bottom: 3%;
   left: 50.75%;
@@ -232,65 +238,65 @@ body{
   cursor: pointer;
 }
 
-.bar{
+.bar {
   position: absolute;
   top: 120%;
   left: 0;
-  background: #6cace4;
+  background: #0052ffc9;
   width: 100%;
   height: 30%;
   filter: opacity(50%);
 }
 
-.what{
+.what {
   position: absolute;
   top: 110%;
   left: 15%;
   width: 20%;
   max-height: 25rem;
   height: 50%;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   perspective: 1000px;
 }
 
-.what:hover>.card{
+.what:hover > .card {
   cursor: pointer;
   transform: rotateY(180deg);
 }
 
-.why{
+.why {
   position: absolute;
   top: 110%;
   left: 40.5%;
   width: 20%;
   height: 50%;
   max-height: 25rem;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   perspective: 1000px;
 }
 
-.why:hover>.card{
+.why:hover > .card {
   cursor: pointer;
   transform: rotateY(180deg);
 }
 
-.how{
+.how {
   position: absolute;
   top: 110%;
   left: 65.5%;
   width: 20%;
   height: 50%;
   max-height: 25rem;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   perspective: 1000px;
 }
 
-.how:hover>.card{
+.how:hover > .card {
   cursor: pointer;
   transform: rotateY(180deg);
 }
 
-.card{
+.card {
   position: relative;
   margin-top: -5%;
   width: 100%;
@@ -299,7 +305,7 @@ body{
   transform-style: preserve-3d;
 }
 
-.front{
+.front {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -309,7 +315,7 @@ body{
   backface-visibility: hidden;
 }
 
-.is{
+.is {
   width: 100%;
   height: 100%;
   margin-top: 5%;
@@ -317,11 +323,11 @@ body{
   font-size: 8vh;
 }
 
-.giv3r{
+.AidConnect {
   color: #2774bc;
 }
 
-.back{
+.back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -335,13 +341,13 @@ body{
   backface-visibility: hidden;
 }
 
-.desc{
+.desc {
   width: 80%;
   padding-left: 10%;
   padding-top: 25%;
 }
 
-.line{
+.line {
   position: absolute;
   width: 80%;
   height: 0.5%;
@@ -351,16 +357,16 @@ body{
   filter: opacity(25%);
 }
 
-.flip{
+.flip {
   position: absolute;
   font-size: 30px;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   text-align: center;
   top: 170%;
   left: 43%;
 }
 
-.statistics{
+.statistics {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -368,20 +374,20 @@ body{
   width: 100%;
   height: 10%;
   top: 190%;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 3rem;
   filter: opacity(75%);
 }
 
-.stats{
+.stats {
   position: absolute;
   width: 100%;
   height: 50%;
   top: 210%;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-.above{
+.above {
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -389,7 +395,7 @@ body{
   height: 60%;
 }
 
-.below{
+.below {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -397,17 +403,20 @@ body{
   height: 40%;
 }
 
-.space{
+.space {
   width: 100%;
   height: 5%;
 }
 
-.users{
+.users {
   width: 100%;
   height: 20%;
 }
 
-.ngo,.donor,.needy,.service{
+.ngo,
+.donor,
+.needy,
+.service {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -417,7 +426,11 @@ body{
   font-size: 1.25rem;
 }
 
-.ngo h1,.donor h1,.needy h1,.service h1,.campaign h1{
+.ngo h1,
+.donor h1,
+.needy h1,
+.service h1,
+.campaign h1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -427,11 +440,12 @@ body{
   border-radius: 20px;
 }
 
-.user{
+.user {
   font-weight: lighter;
 }
 
-.campaign,.donations{
+.campaign,
+.donations {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -439,7 +453,7 @@ body{
   height: 20%;
 }
 
-.donations h1{
+.donations h1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -449,12 +463,13 @@ body{
   border-radius: 20px;
 }
 
-.numbers{
+.numbers {
   width: 100%;
   height: 20%;
 }
 
-.total,.completion{
+.total,
+.completion {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -463,7 +478,7 @@ body{
   float: left;
 }
 
-.total h1{
+.total h1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -474,7 +489,7 @@ body{
   margin-left: 5%;
 }
 
-.completion h1{
+.completion h1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -485,11 +500,18 @@ body{
   margin-right: 5%;
 }
 
-.ngo h1:hover,.donor h1:hover,.needy h1:hover,.service h1:hover,.campaign h1:hover,.donations h1:hover,.total h1:hover,.completion h1:hover{
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2); 
+.ngo h1:hover,
+.donor h1:hover,
+.needy h1:hover,
+.service h1:hover,
+.campaign h1:hover,
+.donations h1:hover,
+.total h1:hover,
+.completion h1:hover {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
-.feedback{
+.feedback {
   position: absolute;
   top: 270%;
   width: 100%;
@@ -499,12 +521,12 @@ body{
   border-top-right-radius: 40px;
 }
 
-.up{
+.up {
   width: 100%;
   height: 30%;
 }
 
-.send{
+.send {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -513,13 +535,13 @@ body{
   float: left;
 }
 
-.value{
+.value {
   font-size: 3.5vw;
-  font-family: 'Brush Script MT', cursive;
+  font-family: "Brush Script MT", cursive;
   filter: opacity(75%);
 }
 
-.button{
+.button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -528,7 +550,7 @@ body{
   float: left;
 }
 
-.button input{
+.button input {
   width: 25%;
   height: 40%;
   background: #2774bc;
@@ -536,43 +558,45 @@ body{
   border-radius: 10px;
   color: white;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: larger;
 }
 
-.button input:hover{
+.button input:hover {
   cursor: pointer;
-  background: #6cace4;
+  background: #0052ffc9;
 }
 
-.down{
+.down {
   width: 100%;
   height: 70%;
 }
 
-.one,.two,.three{
+.one,
+.two,
+.three {
   width: 20%;
   height: 100%;
   float: left;
 }
 
-.four{
+.four {
   width: 40%;
   height: 100%;
   float: left;
 }
 
-.label{
+.label {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 20%;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: x-large;
 }
 
-.input{
+.input {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -580,33 +604,33 @@ body{
   height: 80%;
 }
 
-.input input{
+.input input {
   width: 90%;
   height: 50%;
   background: rgb(108 172 228 / 0.25);
   border: 0;
   border-radius: 20px;
   text-align: center;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-.input textarea{
+.input textarea {
   width: 90%;
   height: 50%;
   background: rgb(108 172 228 / 0.25);
   border: 0;
   border-radius: 20px;
   text-align: center;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   resize: none;
 }
 
-.enter{
+.enter {
   width: 90%;
   height: 90%;
 }
 
-footer{
+footer {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -614,19 +638,19 @@ footer{
   width: 100%;
   height: 10%;
   top: 330%;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
   background: white;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
-@media screen and (orientation:portrait){
-  .navbar{
+@media screen and (orientation: portrait) {
+  .navbar {
     height: 15vh;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
   }
 
-  .home{
+  .home {
     width: 16.6%;
     height: 7vh;
     font-size: 2vw;
@@ -634,7 +658,7 @@ footer{
     border-bottom-left-radius: 20px;
   }
 
-  .about{
+  .about {
     width: 16.6%;
     height: 7vh;
     font-size: 2vw;
@@ -642,7 +666,7 @@ footer{
     margin-left: 16.6%;
   }
 
-  .campaigns{
+  .campaigns {
     width: 16.6%;
     height: 7vh;
     font-size: 2vw;
@@ -650,7 +674,7 @@ footer{
     margin-left: 33.2%;
   }
 
-  .title{
+  .title {
     z-index: -1;
     width: 50%;
     height: 12.5vh;
@@ -658,7 +682,7 @@ footer{
     margin-left: 25%;
   }
 
-  .volunteer{
+  .volunteer {
     width: 17%;
     height: 7vh;
     font-size: 2vw;
@@ -666,7 +690,7 @@ footer{
     margin-top: 8vh;
   }
 
-  .contact{
+  .contact {
     width: 16.6%;
     height: 7vh;
     font-size: 2vw;
@@ -674,7 +698,7 @@ footer{
     margin-top: 8vh;
   }
 
-  .login{
+  .login {
     width: 16.6%;
     height: 7vh;
     font-size: 2vw;
@@ -683,7 +707,7 @@ footer{
     border-bottom-right-radius: 20px;
   }
 
-  .image{
+  .image {
     justify-content: center;
     align-items: center;
     top: 8vh;
@@ -692,7 +716,7 @@ footer{
     height: 39vh;
     border-radius: 10px;
   }
-  .smile{
+  .smile {
     position: absolute;
     left: -72%;
     margin-top: 6.7vh;
@@ -700,23 +724,23 @@ footer{
     height: 32.25vh;
   }
 
-  .rectangle{
+  .rectangle {
     position: absolute;
     display: block;
-    background: #6cace4;
+    background: #0052ffc9;
     filter: opacity(25%);
     width: 100%;
     height: 7vh;
     top: 48.5vh;
   }
 
-  .tagline{
+  .tagline {
     font-size: 5vw;
     margin-top: 49vh;
     margin-left: 0;
   }
 
-  .scroll{
+  .scroll {
     position: absolute;
     width: 8vw;
     height: 7vh;
@@ -726,7 +750,7 @@ footer{
     left: 0;
   }
 
-  .dot{
+  .dot {
     position: absolute;
     width: 3.5vw;
     height: 1.5vh;
@@ -736,7 +760,7 @@ footer{
     left: 0;
   }
 
-  .flip{
+  .flip {
     font-size: 5vw;
     top: 0;
     left: 0;
@@ -744,7 +768,7 @@ footer{
     margin-left: 32%;
   }
 
-  .line{
+  .line {
     height: 0.5vh;
     border-radius: 20px;
     top: 0;
@@ -754,14 +778,14 @@ footer{
     filter: opacity(10%);
   }
 
-  .bar{
+  .bar {
     height: 35vh;
     top: 0;
     margin-top: 95vh;
     filter: opacity(25%);
   }
 
-  .what{
+  .what {
     width: 35%;
     height: 22vh;
     margin-top: 90vh;
@@ -770,7 +794,7 @@ footer{
     left: 0;
   }
 
-  .why{
+  .why {
     width: 35%;
     height: 22vh;
     margin-top: 90vh;
@@ -779,7 +803,7 @@ footer{
     left: 0;
   }
 
-  .how{
+  .how {
     width: 35%;
     height: 22vh;
     margin-top: 116vh;
@@ -788,17 +812,18 @@ footer{
     left: 0;
   }
 
-  .front,.back{
+  .front,
+  .back {
     border-radius: 10px;
   }
 
-  .is{
+  .is {
     font-size: 3.5vh;
     margin-top: 4vh;
     margin-left: 2vw;
   }
 
-  .desc{
+  .desc {
     font-size: 1.25vh;
     margin-left: 3.5vw;
     margin-top: 3.5vh;

@@ -178,7 +178,7 @@ export default function Statistics(){
     
     return(
         <>
-            <title>GIV3R</title>
+            <title>Aid Connect</title>
             <div className="stats">
                 <div className="users">
                     {data1 && (

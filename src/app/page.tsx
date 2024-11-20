@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <>
       <head>
-        <title>GIV3R</title>
+        <title>Aid Connect</title>
       </head>
       <body>
         <nav className="navbar">
@@ -39,7 +39,7 @@ export default function Home() {
             <button className="campaigns">CAMPAIGNS</button>
           </Link>
           <Link href={"/"}>
-            <Image className="title" priority={true} src={"/logo.png"} width={600} height={300} alt="GIV3R"/>
+            <Image className="title" priority={true} src={"/AidConnect Logo2.png"} width={600} height={300} alt="Aid Connect"/>
           </Link>
           <Link href={"/donations"}>
             <button className="volunteer">DONATIONS</button>
@@ -51,40 +51,43 @@ export default function Home() {
             <button className="login">LOGIN</button>
           </Link>
         </nav>
-        <div className="rectangle"></div>
+        
         <div className="image">
-          <p className="tagline">Spreading smiles, beyond borders!</p>
-          <Image className="smile" src={"/smile.png"} width={1000} height={500} alt="Smile"/>
+          <div className="help1">
+          <Image className="smile" src={"/helping.avif" } width={600} height={300} alt="Child"/>
+          </div>
+          <div className="help2">
+            <p>
+            Spreading smiles, beyond borders!
+            </p>
+          </div>
         </div>
-        <Link href="#about">
-          <div className="scroll"></div>
-          <div className="dot"></div>
-        </Link>
+        
         <div className="bar"></div>
         <div className="what" id="about">
           <div className="card">
             <div className="front">
-              <p className="is">What <br/>is <br/><b className="giv3r">GIV3R</b>?</p>
+              <p className="is">What <br/>is <br/><b className="AidConnect">Aid Connect</b>?</p>
             </div>
             <div className="back">
-              <p className="desc">GIV3R is a decentralized charity portal which aims at integrating security, transparency and tracking for your valuable donations to various NGOs.</p>
+              <p className="desc">Aid Connect is a decentralized charity portal which aims at integrating security, transparency and tracking for your valuable donations to various NGOs.</p>
             </div>
           </div>
         </div>
         <div className="why">
           <div className="card">
             <div className="front">
-              <p className="is">Why <br/>use <br/><b className="giv3r">GIV3R</b>?</p>
+              <p className="is">Why <br/>use <br/><b className="AidConnect">Aid Connect</b>?</p>
             </div>
             <div className="back">
-              <p className="desc">Use GIV3R to harness a secure, trustable and transparent environment where you get to track each and every donation you make.</p>
+              <p className="desc">Use Aid Connect to harness a secure, trustable and transparent environment where you get to track each and every donation you make.</p>
             </div>
           </div>
         </div>
         <div className="how">
           <div className="card">
             <div className="front">
-              <p className="is">How <br/>to use <br/><b className="giv3r">GIV3R</b>?</p>
+              <p className="is">How <br/>to use <br/><b className="AidConnect">Aid Connect</b>?</p>
             </div>
             <div className="back">
               <p className="desc">Register under the required role you seek. Access the corresponding dashboard. Use the available features to their fullest.</p>
