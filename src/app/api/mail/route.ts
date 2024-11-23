@@ -23,8 +23,8 @@ export async function POST(request:Request) {
 
         const mailOptions={
             from: email,
-            to: "giv3r.vercel.app@gmail.com",
-            subject: "GIV3R丨Feedback",
+            to: "aidconnect.site@gmail.com",
+            subject: "AidConnect丨Feedback",
             html: `
                 <h1>Feedback received from ${name}</h1>
                 <br>
