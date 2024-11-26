@@ -1,26 +1,26 @@
-"use client"
-import Image from "next/image"
-import Link from "next/link"
-import Statistics from "./stats"
-import { FormEvent } from "react"
+"use client";
+import Image from "next/image";
+import Link from "next/link";
+import Statistics from "./stats";
+import { FormEvent } from "react";
 
 export default function Home() {
-  const handleSubmit=async (e:FormEvent<HTMLFormElement>)=>{
-    e.preventDefault()
-    const formData=new FormData(e.currentTarget)
-    const response=await fetch("/api/mail",{
-        method:"POST",
-        body: JSON.stringify({
-            name: formData.get("name"),
-            email: formData.get("email"),
-            phone: formData.get("phone"),
-            message: formData.get("message")
-        })
-    })
-    if(response){
-      alert("Feedback submitted successfully!")
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    const response = await fetch("/api/mail", {
+      method: "POST",
+      body: JSON.stringify({
+        name: formData.get("name"),
+        email: formData.get("email"),
+        phone: formData.get("phone"),
+        message: formData.get("message"),
+      }),
+    });
+    if (response) {
+      alert("Feedback submitted successfully!");
     }
-  }
+  };
 
   return (
     <>
@@ -29,6 +29,16 @@ export default function Home() {
       </head>
       <body>
         <nav className="navbar">
+          <Link href={"/"}>
+            <Image
+              className="title"
+              priority={true}
+              src={"/AidConnect Logo2.png"}
+              width={600}
+              height={300}
+              alt="Aid Connect"
+            />
+          </Link>
           <Link href="#home">
             <button className="home">HOME</button>
           </Link>
@@ -37,9 +47,6 @@ export default function Home() {
           </Link>
           <Link href={"/campaigns"}>
             <button className="campaigns">CAMPAIGNS</button>
-          </Link>
-          <Link href={"/"}>
-            <Image className="title" priority={true} src={"/AidConnect Logo2.png"} width={600} height={300} alt="Aid Connect"/>
           </Link>
           <Link href={"/donations"}>
             <button className="volunteer">DONATIONS</button>
@@ -51,53 +58,79 @@ export default function Home() {
             <button className="login">LOGIN</button>
           </Link>
         </nav>
-        
+
         <div className="image">
           <div className="help1">
-          <Image className="smile" src={"/helping.avif" } width={600} height={300} alt="Child"/>
+            <Image
+              className="smile"
+              src={"/helping.avif"}
+              width={600}
+              height={300}
+              alt="Child"
+            />
           </div>
           <div className="help2">
-            <p>
-            Spreading smiles, beyond borders!
-            </p>
+            <p>Spreading smiles, beyond borders!</p>
           </div>
+          <div className="center_line"></div>
         </div>
-        
-        <div className="bar"></div>
         <div className="what" id="about">
           <div className="card">
             <div className="front">
-              <p className="is">What <br/>is <br/><b className="AidConnect">Aid Connect</b>?</p>
+              <p className="is">
+                What <br />
+                is <br />
+                <b className="AidConnect">Aid Connect</b>?
+              </p>
             </div>
             <div className="back">
-              <p className="desc">Aid Connect is a decentralized charity portal which aims at integrating security, transparency and tracking for your valuable donations to various NGOs.</p>
+              <p className="desc">
+                Aid Connect is a decentralized charity portal which aims at
+                integrating security, transparency and tracking for your
+                valuable donations to various NGOs.
+              </p>
             </div>
           </div>
         </div>
         <div className="why">
           <div className="card">
             <div className="front">
-              <p className="is">Why <br/>use <br/><b className="AidConnect">Aid Connect</b>?</p>
+              <p className="is">
+                Why <br />
+                use <br />
+                <b className="AidConnect">Aid Connect</b>?
+              </p>
             </div>
             <div className="back">
-              <p className="desc">Use Aid Connect to harness a secure, trustable and transparent environment where you get to track each and every donation you make.</p>
+              <p className="desc">
+                Use Aid Connect to harness a secure, trustable and transparent
+                environment where you get to track each and every donation you
+                make.
+              </p>
             </div>
           </div>
         </div>
         <div className="how">
           <div className="card">
             <div className="front">
-              <p className="is">How <br/>to use <br/><b className="AidConnect">Aid Connect</b>?</p>
+              <p className="is">
+                How <br />
+                to use <br />
+                <b className="AidConnect">Aid Connect</b>?
+              </p>
             </div>
             <div className="back">
-              <p className="desc">Register under the required role you seek. Access the corresponding dashboard. Use the available features to their fullest.</p>
+              <p className="desc">
+                Register under the required role you seek. Access the
+                corresponding dashboard. Use the available features to their
+                fullest.
+              </p>
             </div>
           </div>
         </div>
         <div className="line"></div>
         <p className="flip">Flip to find out!</p>
-        <h1 className="statistics">Take a look at our Stats!</h1>
-        <Statistics/>
+        <Statistics />
         <form className="feedback" id="contact" onSubmit={handleSubmit}>
           <div className="up">
             <div className="send">
@@ -113,7 +146,12 @@ export default function Home() {
                 <label>Name</label>
               </div>
               <div className="input">
-                <input type="text" name="name" placeholder="Enter your name" required></input>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Enter your name"
+                  required
+                ></input>
               </div>
             </div>
             <div className="two">
@@ -121,7 +159,12 @@ export default function Home() {
                 <label>Email</label>
               </div>
               <div className="input">
-                <input type="text" name="email" placeholder="Enter your email" required></input>
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                ></input>
               </div>
             </div>
             <div className="three">
@@ -129,7 +172,11 @@ export default function Home() {
                 <label>Phone</label>
               </div>
               <div className="input">
-                <input type="text" name="phone" placeholder="Enter your phone no."></input>
+                <input
+                  type="text"
+                  name="phone"
+                  placeholder="Enter your phone no."
+                ></input>
               </div>
             </div>
             <div className="four">
@@ -137,7 +184,11 @@ export default function Home() {
                 <label>Message</label>
               </div>
               <div className="input">
-                <textarea name="message" placeholder="Enter your message" required></textarea>
+                <textarea
+                  name="message"
+                  placeholder="Enter your message"
+                  required
+                ></textarea>
               </div>
             </div>
           </div>
@@ -147,5 +198,5 @@ export default function Home() {
         </footer>
       </body>
     </>
-  )
+  );
 }
