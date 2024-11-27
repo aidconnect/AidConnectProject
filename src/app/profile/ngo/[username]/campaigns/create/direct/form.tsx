@@ -3,7 +3,7 @@ import { FormEvent, useEffect, useState } from "react"
 import styles from "./direct.module.css"
 import { useRouter } from "next/navigation"
 import SolidFundrABI from "../../../../../../../../artifacts/contracts/SolidFundr.sol/SolidFundr.json";
-import { ethers } from "../../../../../../../../node_modules/ethers/lib/index"
+import { ethers } from "ethers";
 
 export default function Form({ needy }: any) {
     const router=useRouter()
