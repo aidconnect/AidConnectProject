@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <>
       <head>
-        <title>Aid Connect</title>
+        <title>AidConnect</title>
       </head>
       <body>
         <nav className="navbar">

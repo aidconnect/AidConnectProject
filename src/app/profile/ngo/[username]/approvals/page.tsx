@@ -20,7 +20,7 @@ export default async function ngoProfile() {
     }
     return(
         <>
-            <title>GIV3R丨Profile</title>
+            <title>AidConnect丨Profile</title>
             <Approvals session={session.user?.name || ''}/>
         </>
   )

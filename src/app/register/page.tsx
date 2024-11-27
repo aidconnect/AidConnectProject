@@ -12,7 +12,7 @@ export default async function Register() {
   return (
     <>
       <div className={styles.canvas}>
-        <title>GIV3R丨Register</title>
+        <title>AidConnect丨Register</title>
         <div className={styles.header}>
           <h1 className={styles.heading}>Register</h1>
         </div>
@@ -21,7 +21,7 @@ export default async function Register() {
             <div className={styles.high}>
               <div className={styles.circle}>
                 <Link className={styles.home} href={"/"}>
-                  <Image className={styles.logo} priority={true} src={"/logo.png"} width={500} height={250} alt="GIV3R"/>
+                  <Image className={styles.logo} priority={true} src={"/AidConnect Logo2.png"} width={500} height={250} alt="AidConnect"/>
                 </Link>
               </div>
             </div>

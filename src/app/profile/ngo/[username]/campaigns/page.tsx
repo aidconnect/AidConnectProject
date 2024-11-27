@@ -20,7 +20,7 @@ export default async function Campaign() {
     }
     return(
         <>
-            <title>GIV3R丨Profile</title>
+            <title>AidConnect丨Profile</title>
             <Campaigns session={session.user?.name || ''}/>
         </>
   )

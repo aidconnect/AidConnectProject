@@ -91,7 +91,7 @@ export default function CampaignsPage(){
     return(
         <>
             <div className={styles.box}>
-                <title>GIV3R丨Campaigns</title>
+                <title>AidConnect丨Campaigns</title>
                 <div className={styles.campaigns}>
                     {data.data.map((campaigns: any, index: number) => (
                         <>

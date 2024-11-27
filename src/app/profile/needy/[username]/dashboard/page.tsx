@@ -20,7 +20,7 @@ export default async function needyProfile() {
     }
     return(
         <>
-            <title>GIV3R丨Profile</title>
+            <title>AidConnect丨Profile</title>
             <Dashboard/>
         </>
   )

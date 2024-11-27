@@ -7,12 +7,12 @@ export default async function Campaigns(){
     return(
         <>
             <div className={styles.canvas}>
-                <title>GIV3R丨Campaigns</title>
+                <title>AidConnect丨Campaigns</title>
                 <div className={styles.top}>
                     <div className={styles.one}>
                         <div className={styles.circle}>
                             <Link className={styles.home} href={"/"}>
-                                <Image className={styles.logo} priority={true} src={"/logo.png"} width={500} height={250} alt="GIV3R"/>
+                                <Image className={styles.logo} priority={true} src={"/AidConnect Logo2.png"} width={500} height={250} alt="AidConnect"/>
                             </Link>
                         </div>
                     </div>

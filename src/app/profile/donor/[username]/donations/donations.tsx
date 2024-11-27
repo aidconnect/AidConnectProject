@@ -84,7 +84,7 @@ export default function Donations({ session }: { session: string }) {
         <div className={styles.bar}>
           <div className={styles.one}>
             <Link className={styles.link} href={"/"}>
-              <Image className={styles.logo} priority={true} src={"/logo.png"} width={300} height={150} alt="GIV3R"/>
+              <Image className={styles.logo} priority={true} src={"/AidConnect Logo2.png"} width={300} height={150} alt="AidConnect"/>
             </Link>
           </div>
           <div className={styles.two}>

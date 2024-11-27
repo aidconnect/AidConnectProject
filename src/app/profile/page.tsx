@@ -22,7 +22,7 @@ export default async function Profile() {
     }
     return(
         <>
-            <title>GIV3R丨Profile</title>
+            <title>AidConnect丨Profile</title>
         </>
     )
 }

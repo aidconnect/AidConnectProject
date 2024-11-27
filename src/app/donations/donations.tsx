@@ -82,7 +82,7 @@ export default function DonationsPage(){
     return(
         <>  
             <div className={styles.box}>
-                <title>GIV3R丨Donations</title>
+                <title>AidConnect丨Donations</title>
                 <div className={styles.donations}>
                     {data.data.map((donations: any, index: number) => (
                         <>

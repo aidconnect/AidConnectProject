@@ -12,13 +12,13 @@ export default async function Register() {
     }
     return (
         <>
-            <title>GIV3R丨Register</title>
+            <title>AidConnect丨Register</title>
             <div className={styles.canvas}>
                 <div className={styles.left}>
                     <div className={styles.bar}></div>
                     <div className={styles.circle}>
                         <Link className={styles.home} href={"/"}>
-                            <Image className={styles.logo} priority={true} src={"/logo.png"} width={500} height={250} alt="GIV3R"/>
+                            <Image className={styles.logo} priority={true} src={"/AidConnect Logo2.png"} width={500} height={250} alt="AidConnect"/>
                         </Link>
                     </div>
                 </div>

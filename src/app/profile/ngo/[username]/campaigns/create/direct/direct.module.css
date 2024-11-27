@@ -120,14 +120,14 @@
 .name,.amount,.needyname,.address,.age,.email,.phone,.wallet{
     width: 95%;
     height: 20%;
-    background: rgb(108 172 228 / 0.25);
+background-color: #0052ff12;
     border-radius: 20px;
 }
 
 .cause{
     width: 95%;
     height: 50%;
-    background: rgb(108 172 228 / 0.25);
+background-color: #0052ff12;
     border-radius: 20px;
 }
 
@@ -151,7 +151,7 @@
     height: 35%;
     border-radius: 10px;
     border: 0;
-    background: #2774bc;
+    background: #0052ffc9;
     color: white;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }

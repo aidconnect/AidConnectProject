@@ -20,7 +20,7 @@ export default async function donorProfile() {
     }
     return(
         <>
-            <title>GIV3R丨Profile</title>
+            <title>AidConnect丨Profile</title>
             <Payments session={session.user?.name || ''}/>
         </>
   )

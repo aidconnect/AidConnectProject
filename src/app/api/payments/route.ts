@@ -51,7 +51,7 @@ export async function POST(request:Request) {
                     const theEmail=getTheEmail.rows[0].email
             
                     const mailOptions={
-                        from: "giv3r.vercel.app@gmail.com",
+                        from: "aidconnect.site@gmail.com",
                         to: theEmail,
                         subject: "Congratulations! Your Campaign Has Reached Its Target Amount",
                         html: `
@@ -64,7 +64,7 @@ export async function POST(request:Request) {
                                 <p>If you have any questions or would like further information, please don't hesitate to contact us.</p>
                                 <br>
                                 <p>Warm regards,</p>
-                                <p>Team GIV3R</p>
+                                <p>Team AidConnect</p>
                         `
                     }
             
@@ -92,7 +92,7 @@ export async function POST(request:Request) {
             const email=getEmail.rows[0].email
     
             const mailOptions={
-                from: "giv3r.vercel.app@gmail.com",
+                from: "aidconnect.site@gmail.com",
                 to: email,
                 subject: "You've Received a Donation",
                 html: `
@@ -107,7 +107,7 @@ export async function POST(request:Request) {
                     <p>If you have any questions or would like further information, please don't hesitate to contact us.</p>
                     <br>
                     <p>Warm regards,</p>
-                    <p>Team GIV3R</p>
+                    <p>Team AidConnect</p>
                 `
             }
     
@@ -153,7 +153,7 @@ export async function POST(request:Request) {
                     const theEmail=getTheEmail.rows[0].email
             
                     const mailOptions={
-                        from: "giv3r.vercel.app@gmail.com",
+                        from: "aidconnect.site@gmail.com",
                         to: theEmail,
                         subject: "Congratulations! Your Campaign Has Reached Its Target Amount",
                         html: `
@@ -166,7 +166,7 @@ export async function POST(request:Request) {
                                 <p>If you have any questions or would like further information, please don't hesitate to contact us.</p>
                                 <br>
                                 <p>Warm regards,</p>
-                                <p>Team GIV3R</p>
+                                <p>Team AidConnect</p>
                         `
                     }
             
@@ -194,7 +194,7 @@ export async function POST(request:Request) {
             const email=getEmail.rows[0].email
     
             const mailOptions={
-                from: "giv3r.vercel.app@gmail.com",
+                from: "aidconnect.site@gmail.com",
                 to: email,
                 subject: "You've Received a Donation",
                 html: `
@@ -209,7 +209,7 @@ export async function POST(request:Request) {
                     <p>If you have any questions or would like further information, please don't hesitate to contact us.</p>
                     <br>
                     <p>Warm regards,</p>
-                    <p>Team GIV3R</p>
+                    <p>Team AidConnect</p>
                 `
             }
     

@@ -58,12 +58,12 @@ export default async function createCampaign({searchParams}:{
 
     return(
         <>
-            <title>GIV3R丨Profile</title>
+            <title>AidConnect丨Profile</title>
             <div className={styles.canvas}>
                 <div className={styles.left}>
                     <div className={styles.up}>
                         <div className={styles.circle}>
-                            <Image className={styles.logo} priority={true} src={"/logo.png"} width={300} height={150} alt="GIV3R"/>
+                            <Image className={styles.logo} priority={true} src={"/AidConnect Logo2.png"} width={300} height={150} alt="AidConnect"/>
                         </div>
                     </div>
                     <div className={styles.down}>
