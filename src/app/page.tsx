@@ -142,51 +142,39 @@ export default function Home() {
           </div>
           <div className="down">
             <div className="one">
-              <div className="label">
-                <label>Name</label>
-              </div>
               <div className="input">
                 <input
                   type="text"
                   name="name"
-                  placeholder="Enter your name"
+                  placeholder="Your Name"
                   required
                 ></input>
               </div>
             </div>
             <div className="two">
-              <div className="label">
-                <label>Email</label>
-              </div>
               <div className="input">
                 <input
                   type="text"
                   name="email"
-                  placeholder="Enter your email"
+                  placeholder="Your Email"
                   required
                 ></input>
               </div>
             </div>
             <div className="three">
-              <div className="label">
-                <label>Phone</label>
-              </div>
               <div className="input">
                 <input
                   type="text"
                   name="phone"
-                  placeholder="Enter your phone no."
+                  placeholder="Your Phone No."
                 ></input>
               </div>
             </div>
             <div className="four">
-              <div className="label">
-                <label>Message</label>
-              </div>
               <div className="input">
                 <textarea
                   name="message"
-                  placeholder="Enter your message"
+                  placeholder="Your Message"
                   required
                 ></textarea>
               </div>
