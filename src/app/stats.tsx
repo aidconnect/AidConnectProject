@@ -208,7 +208,7 @@ export default function Statistics() {
 
   return (
     <>
-      <title>Aid Connect</title>
+      <title>AidConnect</title>
       <div className="stats">
         <div className="users">
           {data1 && (
