@@ -326,11 +326,11 @@ body {
   height: 100%;
   margin-top: 5%;
   padding-left: 5%;
-  font-size: 8vh;
+  font-size: 3rem;
 }
 
 .AidConnect {
-  color: #2774bc;
+  color:#2774bc;
 }
 
 .back {
