@@ -128,13 +128,20 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="line"></div>
-        <p className="flip">Flip to find out!</p>
         <Statistics />
         <form className="feedback" id="contact" onSubmit={handleSubmit}>
           <div className="up">
             <div className="send">
               <p className="value">We value your precious feedback...</p>
+            </div>
+            <div className="four">
+              <div className="input">
+                <textarea
+                  name="message"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </div>
             </div>
             <div className="button">
               <input type="submit" value={"Send"}></input>
@@ -142,7 +149,7 @@ export default function Home() {
           </div>
           <div className="down">
             <div className="one">
-              <div className="input">
+              <div className="input1">
                 <input
                   type="text"
                   name="name"
@@ -162,21 +169,12 @@ export default function Home() {
               </div>
             </div>
             <div className="three">
-              <div className="input">
+              <div className="input3">
                 <input
                   type="text"
                   name="phone"
                   placeholder="Your Phone No."
                 ></input>
-              </div>
-            </div>
-            <div className="four">
-              <div className="input">
-                <textarea
-                  name="message"
-                  placeholder="Your Message"
-                  required
-                ></textarea>
               </div>
             </div>
           </div>
