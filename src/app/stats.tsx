@@ -251,7 +251,9 @@ export default function Statistics() {
           </div>
         )}
 
-        <h2 className="statistics">Let the Stats Speak!</h2>
+        <h2 className="statistics">
+          <b className="AidConnect">Let the Stats Speak</b>!
+        </h2>
 
         {data6 && (
           <div className="donations">

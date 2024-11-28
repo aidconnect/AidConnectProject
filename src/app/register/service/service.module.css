@@ -259,8 +259,8 @@ background-color: #0052ff12;
 
 .submit input:hover{
     cursor: pointer;
-    background: #0052ffc9;
-    box-shadow: inset 0 3px 10px rgb(0 0 0 / 0.2);
+    background: black;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 @media screen and (orientation:portrait){

@@ -139,12 +139,14 @@ body {
   padding-top: 85px;
   height: 100vh;
 }
+
 .smile {
   width: 75%;
   border-radius: 20px;
   z-index: 1;
   height: auto;
 }
+
 .center_line {
   top: 35vh;
   left: 0;
@@ -191,67 +193,6 @@ body {
   font-size: 3.5vw;
   font-family: "Brush Script MT", cursive;
   filter: opacity(75%);
-}
-
-.scroll {
-  position: absolute;
-  height: 10%;
-  width: 2.5%;
-  border-radius: 20px;
-  border: 0;
-  background: white;
-  left: 50%;
-  bottom: 7%;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  cursor: pointer;
-}
-
-.scroll::before,
-.scroll::after {
-  content: "";
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  border-bottom: 2px solid black;
-  border-right: 2px solid black;
-  height: 10px;
-  width: 10px;
-  transform: translate(-50%, -100%) rotate(45deg);
-  animation: scroll 1s ease-in-out infinite;
-}
-
-.scroll::after {
-  top: 30%;
-  animation-delay: 0.3s;
-}
-
-@keyframes scroll {
-  0% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 1;
-  }
-  60% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    top: 90%;
-  }
-}
-
-.dot {
-  position: absolute;
-  bottom: 3%;
-  left: 50.75%;
-  width: 1%;
-  height: 2%;
-  border-radius: 50%;
-  border: 0;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  background: white;
-  cursor: pointer;
 }
 
 .what {
@@ -330,18 +271,18 @@ body {
 }
 
 .AidConnect {
-  color:#2774bc;
+  color: #0052ffc9;
 }
 
 .back {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #0052ffc9;
+  background: black;
   border-radius: 20px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   color: white;
-  font-size: 20px;
+  font-size: 1.2rem;
   text-align: center;
   transform: rotateY(180deg);
   backface-visibility: hidden;
@@ -349,27 +290,8 @@ body {
 
 .desc {
   width: 80%;
-  padding-left: 10%;
+  padding-left: 20%;
   padding-top: 25%;
-}
-
-.line {
-  position: absolute;
-  width: 80%;
-  height: 0.5%;
-  background: black;
-  top: 170%;
-  left: 10%;
-  filter: opacity(25%);
-}
-
-.flip {
-  position: absolute;
-  font-size: 30px;
-  font-family: "Plus Jakarta Sans", sans-serif;
-  text-align: center;
-  top: 170%;
-  left: 43%;
 }
 
 .statistics {
@@ -385,7 +307,7 @@ body {
   padding: 0 13px;
   width: 100%;
   height: 50vh;
-  top: 190%;
+  top: 180%;
   font-family: "Plus Jakarta Sans", sans-serif;
   flex-direction: row;
   align-content: center;
@@ -523,30 +445,35 @@ body {
 }
 
 .feedback {
-  display: flex;
   position: absolute;
-  padding-left: 120px;
-  top: 260%;
+  top: 250%;
   width: 100%;
   height: 60%;
-  background: rgb(255 255 255 / 0.5);
+  background: #fefefe;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
-  flex-direction: row;
+  border-top: 1px solid rgb(0 0 0 / 0.2);
+  border-left: 1px solid rgb(0 0 0 / 0.2);
+  border-right: 1px solid rgb(0 0 0 / 0.2);
 }
 
 .up {
-  width: 100%;
-  height: 30%;
+  width: 50%;
+  height: 100%;
+  float: left;
 }
 
 .send {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100%;
-  float: left;
+  height: 30%;
+}
+
+.four {
+  width: 100%;
+  height: 40%;
 }
 
 .value {
@@ -556,58 +483,72 @@ body {
 }
 
 .button {
-  position: relative;
-  top: 57px;
   display: flex;
   align-items: center;
-  float: left;
-  width: 57%;
-  justify-content: flex-end;
+  width: 100%;
+  height: 30%;
+  justify-content: center;
 }
 
 .button input {
-  width: 14vw;
-  height: 11vh;
+  width: 15%;
+  height: 35%;
   background: #0052ffc9;
   border: 0;
-  border-radius: 15px;
+  border-radius: 10px;
   color: white;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: larger;
+  font-size: small;
 }
 
 .button input:hover {
   cursor: pointer;
-  background: #0052ffc9;
-
-  box-shadow:inset 0 3px 10px rgb(0 0 0 / 0.2);
+  background: black;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .down {
-  width: 100%;
-  height: 70%;
+  width: 50%;
+  height: 100%;
+  float: left;
 }
 
 .one,
 .two,
 .three {
-  width: auto;
-  height: 12vh;
-}
-
-.four {
-  width: auto;
-  height: 24vh;
+  width: 100%;
+  height: 33.33%;
 }
 
 .input {
+  display: flex;
+  justify-content: center;
   align-content: center;
+  flex-wrap: wrap;
   width: 100%;
-  height: 80%;
+  height: 100%;
 }
 
-.input input {
+.input1{
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+.input3{
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+
+.input input,.input1 input,.input3 input {
   width: 35vw;
   height: 7vh;
   background-color: #0052ff12;
@@ -641,7 +582,7 @@ footer {
   align-items: center;
   width: 100%;
   height: 10%;
-  top: 320%;
+  top: 310%;
   font-family: "Plus Jakarta Sans", sans-serif;
   background: white;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
