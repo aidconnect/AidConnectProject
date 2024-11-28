@@ -34,7 +34,8 @@
 .bar{
     width: 25%;
     height: 100%;
-    background: #eef2ff;
+    background: #3677ff;
+    filter: opacity(95%);
 }
 
 .circle{
@@ -142,7 +143,7 @@ background-color: #0052ff12;
     text-align: center;
 }
 
-.firstname,.middlename,.lastname,.age,.email,.phone,.country,.state,.district,.city,.pin,.username,.password{
+.ngo,.wallet,.firstname,.middlename,.lastname,.age,.email,.phone,.country,.state,.district,.city,.pin,.username,.password{
     width: 95%;
     height: 20%;
     font-size: 1.5rem;
