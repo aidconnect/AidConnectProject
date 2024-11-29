@@ -132,7 +132,7 @@ export default function Home() {
         <form className="feedback" id="contact" onSubmit={handleSubmit}>
           <div className="up">
             <div className="send">
-              <p className="value">We value your precious feedback...</p>
+              <p className="value">We value your precious feedback ...</p>
             </div>
             <div className="four">
               <div className="input">
