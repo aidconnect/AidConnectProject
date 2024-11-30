@@ -43,7 +43,7 @@ body {
 
 .home:hover {
   box-shadow: 0 3px 10px rgba(50, 50, 50, 0.75);
-  background: #0052ffc9;
+  background: #4b7ef1;
   color: white;
 }
 
@@ -59,7 +59,7 @@ body {
 
 .about:hover {
   box-shadow: 0 3px 10px rgba(50, 50, 50, 0.75);
-  background: #0052ffc9;
+  background: #4b7ef1;
   color: white;
 }
 
@@ -75,7 +75,7 @@ body {
 
 .campaigns:hover {
   box-shadow: 0 3px 10px rgba(50, 50, 50, 0.75);
-  background: #0052ffc9;
+  background: #4b7ef1;
   color: white;
 }
 
@@ -99,7 +99,7 @@ body {
 
 .volunteer:hover {
   box-shadow: 0 3px 10px rgba(50, 50, 50, 0.75);
-  background: #0052ffc9;
+  background: #4b7ef1;
   color: white;
 }
 
@@ -115,7 +115,7 @@ body {
 
 .contact:hover {
   box-shadow: 0 3px 10px rgba(50, 50, 50, 0.75);
-  background: #0052ffc9;
+  background: #4b7ef1;
   color: white;
 }
 
@@ -132,7 +132,7 @@ body {
 
 .login:hover {
   box-shadow: 0 3px 10px rgba(50, 50, 50, 0.75);
-  background: #0052ffc9;
+  background: #4b7ef1;
   color: white;
 }
 
@@ -154,7 +154,7 @@ body {
   width: 100%;
   position: relative;
   height: 18vh;
-  background-color: #0052ffc9;
+  background-color: #4b7ef1;
 }
 
 .help1 {
@@ -260,7 +260,7 @@ body {
 }
 
 .AidConnect {
-  color: #0052ffc9;
+  color: #4b7ef1;
 }
 
 .back {
@@ -481,7 +481,7 @@ body {
 .button input {
   width: 15%;
   height: 35%;
-  background: #0052ffc9;
+  background: #4b7ef1;
   border: 0;
   border-radius: 10px;
   color: white;
@@ -492,7 +492,7 @@ body {
 
 .button input:hover {
   cursor: pointer;
-  background: black;
+  background: #808080;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 

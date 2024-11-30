@@ -34,7 +34,7 @@
 .bar{
     width: 25%;
     height: 100%;
-    background: #3677ff;
+    background: #4b7ef1;
     filter: opacity(95%);
 }
 
@@ -250,7 +250,7 @@ background-color: #0052ff12;
 .submit input{
     width: 15%;
     height: 70%;
-    background: #0052ffc9;
+    background: #4b7ef1;
     border: 0;
     border-radius: 10px;
     color: white;
@@ -259,50 +259,6 @@ background-color: #0052ff12;
 
 .submit input:hover{
     cursor: pointer;
-    background: black;
+    background: #808080;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-}
-
-@media screen and (orientation:portrait){
-    .left{
-        width: 100%;
-        height: 20%;
-    }
-
-    .right{
-        width: 100%;
-        height: 80%;
-    }
-
-    .bar{
-        width: 100%;
-        height: 35%;
-    }
-
-    .circle{
-        width: 7.5rem;
-        height: 7.5rem;
-    }
-
-    .logo{
-        width: 10rem;
-        height: 5rem;
-    }
-
-    .title{
-        font-size: 1.5rem;
-    }
-
-    .details{
-        border-radius: 10px;
-    }
-
-    .ngo,.firstname,.middlename,.lastname,.age,.email,.phone,.country,.state,.district,.city,.pin,.wallet,.username,.password{
-        font-size: 0.75rem;
-    }
-
-    .submit input{
-        width: 25%;
-        height: 65%;
-    }
 }
