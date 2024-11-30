@@ -85,7 +85,7 @@ export default function Home() {
             </div>
             <div className="back">
               <p className="desc">
-                Aid Connect is a decentralized charity portal which aims at
+                AidConnect is a decentralized charity portal which aims at
                 integrating security, transparency and tracking for your
                 valuable donations to various NGOs.
               </p>
@@ -103,7 +103,7 @@ export default function Home() {
             </div>
             <div className="back">
               <p className="desc">
-                Use Aid Connect to harness a secure, trustable and transparent
+                Use AidConnect to harness a secure, trustable and transparent
                 environment where you get to track each and every donation you
                 make.
               </p>
