@@ -45,11 +45,12 @@
     height: 11rem;
     border-radius: 50%;
     background: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .logo{
-    width: 15rem;
-    height: 7.5rem;
+    width: 7.5rem;
+    height: auto;
 }
 
 .two{
@@ -103,9 +104,11 @@
     background: white;
     border-radius: 15px;
     float: left;
+    border: 1px solid rgb(0 0 0 / 0.2);
 }
 
 .card:hover{
+    border: 0;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
@@ -115,7 +118,7 @@
     align-items: center;
     width: 100%;
     height: 10%;
-    background: #0052ffc9;
+    background: #4b7ef1;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -181,7 +184,7 @@
     align-items: center;
     width: 30%;
     height: 50%;
-    background: #0052ffc9;
+    background: #4b7ef1;
     color: white;
     border: 0;
     border-radius: 5px;
@@ -192,7 +195,7 @@
 
 .link:hover{
     cursor: pointer;
-    background: #6cace4;
+    background: #808080;
 }
 
 .space{

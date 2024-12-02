@@ -25,7 +25,8 @@ export async function POST(request:Request) {
             const ngos=ngo.map((str: string) => parseInt(str, 10))
             const hashedPassword=await hash(password,10)
             for (let i=0;i<ngos.length;i++){
-                const response=await sql`insert into needy(ngo,firstname,middlename,lastname,age,email,phone,country,state,district,city,pin,wallet,username,password) values(${ngos[i]},${firstname},${middlename},${lastname},${age},${email},${phone},${country},${state},${district},${city},${pin},${wallet},${username},${hashedPassword});`
+                const status='Pending'
+                const response=await sql`insert into needy(ngo,firstname,middlename,lastname,age,email,phone,country,state,district,city,pin,wallet,username,password,status) values(${ngos[i]},${firstname},${middlename},${lastname},${age},${email},${phone},${country},${state},${district},${city},${pin},${wallet},${username},${hashedPassword},${status});`
             }
         }
     }
