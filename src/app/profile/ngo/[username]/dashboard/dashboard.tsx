@@ -7,11 +7,19 @@ import { signOut } from 'next-auth/react'
 
 interface ApiResponse {
   data: {
+    id: number,
     name: string,
     username: string,
     campaigns: number,
     volunteers: number,
-    wallet: string
+    wallet: string,
+    state:string,
+    country:string,
+    city:string,
+    district:string,
+    pin:number,
+    phone:number,
+    email:string
   }
 }
 
@@ -149,15 +157,15 @@ export default function Dashboard() {
               <div className={styles.top}>
                 <div className={styles.details}>
                   <div className={styles.high}>
-                    <div className={styles.lt}>
-                      <Image className={styles.dp} priority={true} src={"/profile.png"} width={175} height={175} alt="Profile"/>
-                    </div>
                     <div className={styles.rt}>
                       <h1 className={styles.name}>{data.data.name}</h1>
                     </div>
                   </div>
                   <div className={styles.low}>
                     <p>Wallet details: {data.data.wallet}</p>
+                    <p>Address: {data.data.city}, {data.data.district}, {data.data.state}, {data.data.country}- {data.data.pin}. </p>
+                    <p>Email: {data.data.email}</p>
+                    <p>Phone: {data.data.phone}</p>
                   </div>
                 </div>
               </div>
