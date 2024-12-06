@@ -30,6 +30,7 @@ interface ApiResponse2{
     map(arg0: (recent: any, index: number) => React.JSX.Element): React.ReactNode
     amount: number,
     type: string,
+    to_name:string,
     campaign_id: number
   }
 }
@@ -174,7 +175,7 @@ export default function Dashboard() {
                 <br/>
                 <div className={styles.history}>
                   {data2?.data.map((recent: any,index: number) => (
-                    <p key={index}>{recent.amount} to {recent.type}: {recent.campaign_id}</p>
+                    <p key={index}>{recent.amount} ETH to {recent.to_name}</p>
                   ))}
                 </div>
               </div>
