@@ -63,7 +63,7 @@ export default async function createCampaign({searchParams}:{
                 <div className={styles.left}>
                     <div className={styles.up}>
                         <div className={styles.circle}>
-                            <Image className={styles.logo} priority={true} src={"/AidConnect Logo2.png"} width={300} height={150} alt="AidConnect"/>
+                            <Image className={styles.logo} priority={true} src={"/AidConnect Icon1.png"} width={300} height={150} alt="AidConnect"/>
                         </div>
                     </div>
                     <div className={styles.down}>

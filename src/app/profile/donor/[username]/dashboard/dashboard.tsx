@@ -13,20 +13,15 @@ interface ApiResponse {
     username: string,
     total: number,
     number: number,
-    status: string;
-    ngo: number;
-    wallet: string;
-    id: number;
-    name: string;
-    campaigns: number;
-    volunteers: number;
-    state: string;
-    country: string;
-    city: string;
-    district: string;
-    pin: number;
-    phone: number;
-    email: string;
+    status: string,
+    ngo: number,
+    wallet: string,
+    id: number,
+    name: string,
+    campaigns: number,
+    volunteers: number,
+    phone: number,
+    email: string
   }
 }
 
@@ -154,11 +149,7 @@ export default function Dashboard() {
                     </div>
                   </div>
                   <div className={styles.low}>
-                    <p>Wallet details: {data.data.wallet}</p>
-                    <p>
-                      Address: {data.data.city}, {data.data.district},{" "}
-                      {data.data.state}, {data.data.country}- {data.data.pin}.{" "}
-                    </p>
+                    <p>Wallet ID: {data.data.wallet}</p>
                     <p>Email: {data.data.email}</p>
                     <p>Phone: {data.data.phone}</p>
                   </div>

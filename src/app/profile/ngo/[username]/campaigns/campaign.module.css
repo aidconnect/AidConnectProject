@@ -66,7 +66,7 @@
     text-decoration: none;
 }
 
-.active{
+.active {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,33 +74,33 @@
     height: 100%;
     border: 0;
     border-radius: 10px;
-    background: rgb(108 172 228 / 0.5);
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: #0052ff12;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: large;
-    color: #2774bc;
-}
-
-.active:hover{
+    color: #4b7ef1;
+  }
+  
+  .active:hover {
     cursor: pointer;
-    background: rgb(39 116 188);
+    background: black;
     color: white;
-}
-
-.button{
+  }
+  
+  .button {
     width: 100%;
     height: 100%;
     background: transparent;
     border: 0;
     border-radius: 10px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: large;
-}
-
-.button:hover{
+  }
+  
+  .button:hover {
     cursor: pointer;
-    background: rgb(39 116 188);
+    background: black;
     color: white;
-}
+  }
 
 .three{
     display: flex;
@@ -213,7 +213,7 @@ background-color: #0052ff12;
 .create{
     width: 100%;
     height: 100%;
-    background: #4b7ef1;
+    background: black;
     color: white;
     font-family: 'Plus Jakarta Sans', sans-serif;
     border: 0;
@@ -223,98 +223,5 @@ background-color: #0052ff12;
 
 .create:hover{
     cursor: pointer;
-    background: #6cace4;
-}
-
-@media screen and (orientation:portrait){
-    .bar{
-        width: 100%;
-        height: 20%;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        float: none;
-    }
-
-    .one{
-        width: 100%;
-        height: 40%;
-    }
-
-    .logo{
-        width: 12rem;
-        height: 6rem;
-    }
-
-    .two{
-        width: 100%;
-        height: 25%;
-    }
-
-    .select{
-        width: 20%;
-        height: 100%;
-        float: left;
-    }
-
-    .link{
-        width: 90%;
-        height: 70%;
-    }
-
-    .active{
-        border-radius: 5px;
-        font-size: x-small;
-    }
-
-    .button{
-        border-radius: 5px;
-        font-size: x-small;
-    }
-
-    .three{
-        width: 100%;
-        height: 35%;
-    }
-
-    .logout{
-        width: 20%;
-        height: 60%;
-        border-radius: 5px;
-    }
-
-    .campaign{
-        width: 100%;
-        height: 80%;
-        float: none;
-    }
-
-    .title{
-        font-size: x-large;
-    }
-
-    .list{
-        border-radius: 10px;
-    }
-
-    .table thead{
-        font-size: x-small;
-    }
-
-    .table tbody{
-        font-size: xx-small;
-    }
-
-    .low{
-        align-items: center;
-    }
-
-    .redirect{
-        width: 20%;
-        height: 50%;
-        margin-left: 70%;
-    }
-
-    .create{
-        border-radius: 5px;
-    }
+    background: #808080;
 }

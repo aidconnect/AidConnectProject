@@ -66,7 +66,7 @@
     text-decoration: none;
 }
 
-.active{
+.active {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -74,33 +74,33 @@
     height: 100%;
     border: 0;
     border-radius: 10px;
-    background: rgb(108 172 228 / 0.5);
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: #0052ff12;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: large;
-    color: #2774bc;
-}
-
-.active:hover{
+    color: #4b7ef1;
+  }
+  
+  .active:hover {
     cursor: pointer;
-    background: rgb(39 116 188);
+    background: black;
     color: white;
-}
-
-.button{
+  }
+  
+  .button {
     width: 100%;
     height: 100%;
     background: transparent;
     border: 0;
     border-radius: 10px;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: large;
-}
-
-.button:hover{
+  }
+  
+  .button:hover {
     cursor: pointer;
-    background: rgb(39 116 188);
+    background: black;
     color: white;
-}
+  }
 
 .three{
     display: flex;
@@ -170,6 +170,7 @@
     border-radius: 10px;
     background: white;
     font-size: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
 }
 
 .space{
@@ -201,7 +202,7 @@
     align-items: center;
     width: 50%;
     height: 50%;
-    background: #4b7ef1;
+    background: black;
     color: white;
     font-family: 'Plus Jakarta Sans', sans-serif;
     border: 0;
@@ -213,7 +214,7 @@
 
 .pay:hover{
     cursor: pointer;
-    background: #6cace4;
+    background: #808080;
 }
 
 @media screen and (orientation:portrait){
