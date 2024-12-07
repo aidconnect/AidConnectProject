@@ -82,8 +82,8 @@
   
   .active:hover {
     cursor: pointer;
-    background: black;
-    color: white;
+    background: rgb(0 0 0 / 0.07);
+    color: #808080;
   }
   
   .button {
@@ -98,8 +98,8 @@
   
   .button:hover {
     cursor: pointer;
-    background: black;
-    color: white;
+    background: rgb(0 0 0 / 0.07);
+    color: #808080;
   }
 
 .three{
