@@ -29,11 +29,12 @@
     height: 11rem;
     border-radius: 50%;
     background: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .logo{
-    width: 15rem;
-    height: 7.5rem;
+    width: 7.5rem;
+    height: auto;
 }
 
 .two{
@@ -152,6 +153,7 @@
     border-radius: 20px;
     font-size: medium;
     text-align: center;
+    border: 1px solid rgb(0 0 0 / 0.2);
 }
 
 .right{
